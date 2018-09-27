@@ -18,6 +18,9 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(katz_deli)
-  puts katz_deli.unshift
+  if katz_deli.length == 0
+    puts "There is nobody waiting to be served!"
+  else
+    puts katz_deli.unshift
 end
 
