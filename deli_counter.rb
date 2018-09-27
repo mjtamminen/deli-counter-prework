@@ -6,4 +6,4 @@ def line(katz_deli)
   else
     puts "You are currently"
 end
-
+end
