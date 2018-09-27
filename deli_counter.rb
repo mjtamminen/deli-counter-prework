@@ -7,6 +7,6 @@ def line(katz_deli)
     puts "You are currently: "
     katz_deli.each.with_index(1) do |name, i|
       current_line.push "#{i}. #{name}"
-end
-puts current_line
+  end
+  puts current_line
 end
