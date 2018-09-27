@@ -1,4 +1,5 @@
 katz_deli = []
+current_line = []
 
 def line(katz_deli)
   if katz_deli.length == 0
